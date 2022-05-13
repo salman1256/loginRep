@@ -91,6 +91,8 @@
     <Content Include=".gitIgnore" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="MyDir\MyText.txt" />
+    <Content Include="OurDir\OurText.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -117,8 +119,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="MyDir\" />
-    <Folder Include="OurDir\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
